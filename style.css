@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container1{
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    min-height: 100vh;
+    display: flex;
+
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: white;
+    margin-left: 130px;
+    
+
+}
+
+.upperbar{
+    height: 20px;
+    background-color: rgb(218, 218, 24);
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    font-weight: lighter;
+    
+}
+.upperbar button{
+    background-color: black;
+    color: rgb(250, 247, 247);
+    font-size: 8px;
+    margin-left: 4px;
+    padding: 1px;
+}
+
+
+.navbar{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(249, 248, 247);
+    
+}
+.navbar ol{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+
+}
+.navbar span{
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.navbar img{
+    width: 30px;
+
+}
+.navbar button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 80px;
+    font-size: smaller;
+}
+
+
+.main-container{
+
+}
+
+.text{
+    
+    padding: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.text-inner{
+    
+    width: 180px;
+    height: 300px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#img2{
+    width: 30px ;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.text-inner span{
+    width: 200px;
+    display: flex;
+    font-weight: 100;
+    flex-direction: column;
+    font-size: smaller;
+    justify-content: space-between;
+}
+
+.text-inner button{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+
+
+}
+#p{
+    font-weight: 100;
+    font-size: smaller;
+    margin-bottom: 60px;
+    color: gray;
+    
+}
+
+.line{
+
+    border-bottom: 1px solid black;
+}
+#img3{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -600px;
+    margin-left: 400px;
+}
+
+.downbar ol{
+    padding: 60px;
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    justify-content: space-between;
+    list-style: none;
+    
+
+}
